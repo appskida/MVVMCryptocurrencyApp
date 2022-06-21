@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.pm.mvvmcryptocurrencyapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:name=".CoinApplication"
         android:allowBackup="true"
@@ -14,12 +15,12 @@
             android:name=".presentation.coin_list.CoinListActivity"
             android:exported="true"
             android:label="@string/title_activity_coin_list"
-            android:theme="@style/MVVMCryptocurrencyAppTheme" >
+            android:theme="@style/MVVMCryptocurrencyAppTheme">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
     </application>

@@ -32,7 +32,7 @@ private val LightColorPalette = lightColors(
 
 @Composable
 fun MVVMCrytocurrencyAppTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
+    darkTheme: Boolean = true,//isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {
     val colors = if (darkTheme) {
