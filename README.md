@@ -1,4 +1,4 @@
-# MVVMCryptocurrencyApp
+# Cryptocurrency App (MVVM with Clean Architecture)
 
 Sample Cryptocurrency app that follow android latest MVVM with Clean Architecture 
 
